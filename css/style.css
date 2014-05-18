@@ -1,0 +1,102 @@
+html, body{
+	overflow: hidden;
+}
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 11pt;
+	background-color: #2980b9;
+}
+
+label{
+	color: #333;
+	width: 100px;
+	float: left;
+	text-align: right;
+	margin-left: auto;
+	padding-top: 1px;
+}
+
+input{
+	margin-left: 5%;
+	color: #333;
+}
+	input:focus{ outline-color: #333; }
+
+select{
+	color: #333;
+}
+	select:focus{ outline-color: #333; }
+
+
+/* ID */
+
+#title{
+	margin-top: -10px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	border-bottom: dashed 2px #000;
+}
+
+#form{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 300px;
+	padding: 20px;
+	display: block;
+	border: solid 1px #BABCC2;
+	border-radius: 5px;
+	background-color: #ecf0f1;
+	box-shadow: 0px 0px 15px 1px #555555;
+}
+
+#registration{
+	padding: 10px;
+}
+
+#message{
+	font-size: x-small;
+}
+
+#btnOk{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* CLASS */
+
+.red{
+	color: #CF000F;
+}
+
+.green{
+	color: #26A65B;
+}
+
+.error{
+	outline-color: #CF000F;
+	outline-offset: -2px;
+	outline-style: auto;
+	outline-width: 5px;
+}
+	.error:focus{outline-color: #CF000F;}
+
+.ok{
+	outline-color: #26A65B;
+	outline-offset: -2px;
+	outline-style: auto;
+	outline-width: 5px;
+}
+	.ok:focus{outline-color: #26A65B;}
+
+.center{
+	text-align: center;
+}
+
+.first{
+	margin-left: 5%;
+}
